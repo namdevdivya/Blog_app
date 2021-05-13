@@ -1,0 +1,48 @@
+
+.blog{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:50px;
+  
+}
+
+.blogText{
+  text-align: center;
+  
+}
+.btnDesign{
+  text-align: right;
+}
+.btnDesign button a{
+  list-style: none;
+  text-decoration: none;
+}
+.read-more-less--more,
+.read-more-less--less {
+  color: #999;
+}
+.tagDesigns{
+  display: flex;
+  flex: 1;
+}
+.btnDesigns{
+  text-align: right;
+}
+.likeIcon{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  background: pink;
+  margin-left: 160px;
+  line-height: 4rem
+}
+
+.blogImage{
+  position: relative;
+}
+
+.iconDesign{
+  margin-top: 10px;
+}
