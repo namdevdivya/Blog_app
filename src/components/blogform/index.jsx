@@ -6,7 +6,7 @@ import TagsInput from "./TagsInput";
 import { Link} from "react-router-dom";
 import { categoryOptions } from "../../config";
 import {useParams} from 'react-router-dom'
-
+//My-BlogForm
 const BlogForm = (props) => {
   const {index} = useParams();
   console.log(index);
